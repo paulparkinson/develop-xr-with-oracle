@@ -67,6 +67,7 @@ public class TakePicAndProcessAI : MonoBehaviour
     {
         endPoint = "tellastory/tellastory";
         genopts = "dystopian";
+        TakePicAndProcess();
     }
     public void GenerateAnImageFromDescription()
     {
